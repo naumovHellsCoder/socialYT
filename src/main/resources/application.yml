@@ -1,0 +1,10 @@
+server:
+  port: 9090
+spring:
+  application:
+    name: social-application
+  datasource:
+    username: "postgres"
+    password: "postgres"
+    url: "jdbc:postgresql://localhost:5432/social_service"
+    driver-class-name: org.postgresql.Driver
